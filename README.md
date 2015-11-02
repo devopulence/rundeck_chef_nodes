@@ -35,7 +35,7 @@ The following is a high level description of how it works:
 
 **chefdk and knife.rb installed, configured and validated**
 
-1. Install chefdk ( This example uses Chef Development Kits 0.4.0 )
+1. Install chefdk ( This example uses Chef Development Kits 0.4.0 ) https://downloads.chef.io/chef-dk/
 2. Create a .chef subdirectory under the /var/lib/rundeck subdirectory
 3. Within the .chef subdirectory create your knife.rb file and deploy the required pem files and trusted_certs to support the knife.rb.
 4. Make sure rundeck is the owner of your .chef subdirectory and all constructs within the .chef subdirecory
