@@ -1,0 +1,18 @@
+name: Ruby Script Model Source
+version: 1.0
+rundeckPluginVersion: 1.0
+author: johndesp
+date: 07/28/15
+providers:
+    - name: ChefNodes
+      service: ResourceModelSource
+      plugin-type: script
+      script-interpreter: ruby
+      script-file: nodes.rb
+      script-args: ${config.search_query}
+      resource-format: resourceyaml
+      config:
+        - type: String
+          name: search_query
+          title: Search Query
+          description: Enter the Search query.
